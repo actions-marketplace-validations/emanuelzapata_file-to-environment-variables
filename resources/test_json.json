@@ -1,0 +1,37 @@
+{
+  "abcShortValues": [
+    "WWE",
+    "TEST",
+    "with space",
+    "another-test",
+    "FIRSTINFIRSTOUT"
+  ],
+  "squads": [
+    123456
+  ],
+  "apiVersion": "0.2.3",
+  "test": {
+    "key": "value",
+    "array": [
+      "item1",
+      "item2"
+    ]
+  },
+  "app": {
+    "name": "my-application",
+    "version": "1.0.0",
+    "database": {
+      "host": "localhost",
+      "port": 5432,
+      "user": "admin",
+      "password": {
+        "isValid": true,
+        "meetsRequirements": true,
+        "value": "admin_password"
+      }
+    }
+  },
+  "settings": {
+    "debug_mode": true
+  }
+}

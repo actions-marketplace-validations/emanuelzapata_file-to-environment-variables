@@ -1,0 +1,15 @@
+name: 'file-to-environment-variables'
+description: 'Turns given files into environment variables to be used within Github Actions Runners'
+
+inputs:
+  file-path:
+    description: 'Path to the file to convert'
+    required: true
+
+outputs:
+  env-vars:
+    description: 'The environment variables extracted from the file'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
