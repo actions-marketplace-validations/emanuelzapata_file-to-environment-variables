@@ -1,6 +1,9 @@
 name: 'file-to-environment-variables'
 description: 'Turns given files into environment variables to be used within Github Actions Runners'
-
+branding:
+  icon: 'file-text'
+  color: 'purple'
+  
 inputs:
   file-path:
     description: 'Path to the file to convert'
